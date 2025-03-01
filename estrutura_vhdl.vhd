@@ -3,7 +3,7 @@
 -- Data: 01/03/2025
 
 -- Entidade
-ENTITY estrutura_vhdl is
+ENTITY estrutura_vhdl IS
 
     GENERIC(
         n : TIPO := valor
