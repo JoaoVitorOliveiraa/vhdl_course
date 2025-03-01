@@ -14,6 +14,6 @@ end entity somador_quatro_bits;
 architecture main of somador_quatro_bits is
 begin
 
-    z <= a + b:
+    z <= a + b;
 
 end architecture main;
