@@ -18,7 +18,7 @@ entity and_gate is
         -- Entradas: "a" e "b".
         -- Modo: "in" (modo de entrada).
         -- Tipo: "bit".
-        a, b: int bit;
+        a, b: in bit;
         
         -- Saída: "z".
         -- Modo: "out" (modo de saída).
@@ -27,7 +27,7 @@ entity and_gate is
         
         );
         
-        end entity and_gate;
+end entity and_gate;
         
         
 -- 3: Arquitetura
