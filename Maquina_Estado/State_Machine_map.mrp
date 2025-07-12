@@ -1,0 +1,65 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'State_Machine'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o State_Machine_map.ncd State_Machine.ngd State_Machine.pcf 
+Target Device  : xc7a100t
+Target Package : csg324
+Target Speed   : -3
+Mapper Version : artix7 -- $Revision: 1.55 $
+Mapped Date    : Fri May 30 17:21:02 2025
+
+Design Summary
+--------------
+Number of errors   :  11
+Number of warnings :   0
+
+Section 1 - Errors
+------------------
+ERROR:MapLib:30 - LOC constraint E12 on clk is invalid: No such site on the
+   device. To bypass this error set the environment variable 'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint U10 on switches<1> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint V8 on switches<0> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint W21 on leds_out<7> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint Y22 on leds_out<6> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint V20 on leds_out<5> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint V19 on leds_out<4> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint U19 on leds_out<3> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint U20 on leds_out<2> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint T19 on leds_out<1> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+ERROR:MapLib:30 - LOC constraint R20 on leds_out<0> is invalid: No such site on
+   the device. To bypass this error set the environment variable
+   'XIL_MAP_LOCWARN'.
+
+Section 2 - Warnings
+--------------------
+
+Section 3 - Informational
+-------------------------
+
+Section 4 - Removed Logic Summary
+---------------------------------
+
+Section 5 - Removed Logic
+-------------------------

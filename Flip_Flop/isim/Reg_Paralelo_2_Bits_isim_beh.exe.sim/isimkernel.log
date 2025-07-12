@@ -1,0 +1,29 @@
+Command line:
+   Reg_Paralelo_2_Bits_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  48524
+
+Fri May  9 16:23:03 2025
+
+
+ Elaboration Time: 0.01 sec
+
+ Current Memory Usage: 195.351 Meg
+
+ Total Signals          : 16
+ Total Nets             : 11
+ Total Signal Drivers   : 8
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 6
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 371
+Total Line Count : 10
+
+ Total Simulation Time: 0.05 sec
+
+ Current Memory Usage: 272.949 Meg
+
+Fri May  9 16:24:26 2025
+

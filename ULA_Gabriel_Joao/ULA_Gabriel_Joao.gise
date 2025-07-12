@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="ULA_Gabriel_Joao.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Somador_Completo_1_bit_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="Somador_Completo_1_bit_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="Somador_Completo_1_bit_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ULA_1_bit_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ULA_4_bits_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ULA_4_bits_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ULA_4_bits_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1748024738" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1748024738">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748028275" xil_pn:in_ck="5986189661496645043" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1748028275">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../Somador_Completo_1_bit.vhd"/>
+      <outfile xil_pn:name="../Xor_Port.vhd"/>
+      <outfile xil_pn:name="../raphael_beatriz/And_Port.vhd"/>
+      <outfile xil_pn:name="../raphael_beatriz/Decodificador.vhd"/>
+      <outfile xil_pn:name="../raphael_beatriz/Or_Port_4.vhd"/>
+      <outfile xil_pn:name="/media/KINGSTON/Circuitos_Combinacionais/Or_Port_3.vhd"/>
+      <outfile xil_pn:name="/media/KINGSTON/Portas_Gabriel_Joao/Not_Port.vhd"/>
+      <outfile xil_pn:name="/media/KINGSTON/Portas_Gabriel_Joao/Or_Port.vhd"/>
+      <outfile xil_pn:name="ULA_1_bit.vhd"/>
+      <outfile xil_pn:name="ULA_4_bits.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1748027982" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="830610333360945839" xil_pn:start_ts="1748027982">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748027982" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="3899060648824111949" xil_pn:start_ts="1748027982">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748028046" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-350212365501576523" xil_pn:start_ts="1748028046">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1748028275" xil_pn:in_ck="5986189661496645043" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1748028275">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../Somador_Completo_1_bit.vhd"/>
+      <outfile xil_pn:name="../Xor_Port.vhd"/>
+      <outfile xil_pn:name="../raphael_beatriz/And_Port.vhd"/>
+      <outfile xil_pn:name="../raphael_beatriz/Decodificador.vhd"/>
+      <outfile xil_pn:name="../raphael_beatriz/Or_Port_4.vhd"/>
+      <outfile xil_pn:name="/media/KINGSTON/Circuitos_Combinacionais/Or_Port_3.vhd"/>
+      <outfile xil_pn:name="/media/KINGSTON/Portas_Gabriel_Joao/Not_Port.vhd"/>
+      <outfile xil_pn:name="/media/KINGSTON/Portas_Gabriel_Joao/Or_Port.vhd"/>
+      <outfile xil_pn:name="ULA_1_bit.vhd"/>
+      <outfile xil_pn:name="ULA_4_bits.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1748028276" xil_pn:in_ck="5986189661496645043" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-2706082193875966821" xil_pn:start_ts="1748028275">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="ULA_4_bits_beh.prj"/>
+      <outfile xil_pn:name="ULA_4_bits_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1748028678" xil_pn:in_ck="-4278887670025450456" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-5056564042376522210" xil_pn:start_ts="1748028678">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ULA_4_bits_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

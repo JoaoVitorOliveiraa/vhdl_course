@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/sd/Documents/ULA_Gabriel_Joao/Somador_Completo_1_bit_isim_beh.exe" -prj "/home/sd/Documents/ULA_Gabriel_Joao/Somador_Completo_1_bit_beh.prj" "work.Somador_Completo_1_bit" 

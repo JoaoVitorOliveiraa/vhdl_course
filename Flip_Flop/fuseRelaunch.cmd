@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/sd/Flip_Flop/Reg_Serial_2_Bits_isim_beh.exe" -prj "/home/sd/Flip_Flop/Reg_Serial_2_Bits_beh.prj" "work.Reg_Serial_2_Bits" 

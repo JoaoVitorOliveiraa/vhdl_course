@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/sd/Debounce/State_Machine_isim_beh.exe" -prj "/home/sd/Debounce/State_Machine_beh.prj" "work.State_Machine" 

@@ -1,0 +1,30 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/sd/Documents/ULA_Gabriel_Joao/Somador_Completo_1_bit_isim_beh.exe -prj /home/sd/Documents/ULA_Gabriel_Joao/Somador_Completo_1_bit_beh.prj work.Somador_Completo_1_bit 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/sd/Documents/ULA_Gabriel_Joao/../../../../media/KINGSTON/Portas_Gabriel_Joao/Or_Port.vhd" into library work
+Parsing VHDL file "/home/sd/Documents/ULA_Gabriel_Joao/../../../../media/KINGSTON/Portas_Gabriel_Joao/Not_Port.vhd" into library work
+Parsing VHDL file "/home/sd/Documents/ULA_Gabriel_Joao/../../../../media/KINGSTON/Portas_Gabriel_Joao/And_Port.vhd" into library work
+Parsing VHDL file "/home/sd/Documents/ULA_Gabriel_Joao/../../../../media/KINGSTON/Portas_Gabriel_Joao/Xor_Port.vhd" into library work
+Parsing VHDL file "/home/sd/Documents/ULA_Gabriel_Joao/../../../../media/KINGSTON/Circuitos_Combinacionais/Or_Port_3.vhd" into library work
+Parsing VHDL file "/home/sd/Documents/ULA_Gabriel_Joao/Somador_Completo_1_bit.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94384 KB
+Fuse CPU Usage: 1190 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity And_Port [and_port_default]
+Compiling architecture behavioral of entity Or_Port [or_port_default]
+Compiling architecture behavioral of entity Not_Port [not_port_default]
+Compiling architecture structural of entity Xor_Port [xor_port_default]
+Compiling architecture behavioral of entity Or_Port_3 [or_port_3_default]
+Compiling architecture structural of entity somador_completo_1_bit
+Time Resolution for simulation is 1ps.
+Waiting for 3 sub-compilation(s) to finish...
+Compiled 13 VHDL Units
+Built simulation executable /home/sd/Documents/ULA_Gabriel_Joao/Somador_Completo_1_bit_isim_beh.exe
+Fuse Memory Usage: 395860 KB
+Fuse CPU Usage: 1220 ms
+GCC CPU Usage: 420 ms

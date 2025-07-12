@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/sd/Documents/Circuitos_Combinacionais/Somador_Completo_4_bits_isim_beh.exe" -prj "/home/sd/Documents/Circuitos_Combinacionais/Somador_Completo_4_bits_beh.prj" "work.Somador_Completo_4_bits" 

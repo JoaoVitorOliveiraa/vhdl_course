@@ -1,0 +1,4 @@
+vhdl work "Or_Port.vhd"
+vhdl work "Not_Port.vhd"
+vhdl work "And_Port.vhd"
+vhdl work "Xor_Port.vhd"

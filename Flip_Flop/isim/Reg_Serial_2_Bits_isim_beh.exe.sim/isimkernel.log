@@ -1,0 +1,29 @@
+Command line:
+   Reg_Serial_2_Bits_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  48449
+
+Fri May  9 16:28:57 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 195.351 Meg
+
+ Total Signals          : 20
+ Total Nets             : 14
+ Total Signal Drivers   : 10
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 8
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 374
+Total Line Count : 12
+
+ Total Simulation Time: 0.07 sec
+
+ Current Memory Usage: 272.949 Meg
+
+Fri May  9 16:31:05 2025
+

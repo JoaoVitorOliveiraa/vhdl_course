@@ -1,0 +1,6 @@
+vhdl work "../../../media/KINGSTON/Portas_Gabriel_Joao/Or_Port.vhd"
+vhdl work "../../../media/KINGSTON/Portas_Gabriel_Joao/Not_Port.vhd"
+vhdl work "../../../media/KINGSTON/Portas_Gabriel_Joao/And_Port.vhd"
+vhdl work "../../../media/KINGSTON/Portas_Gabriel_Joao/Xor_Port.vhd"
+vhdl work "../../../media/KINGSTON/Circuitos_Combinacionais/Or_Port_3.vhd"
+vhdl work "../Somador_Completo_1_bit.vhd"

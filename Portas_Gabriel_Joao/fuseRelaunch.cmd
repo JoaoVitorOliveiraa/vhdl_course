@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/sd/Documents/Portas_Gabriel_Joao/Xor_Port_isim_beh.exe" -prj "/home/sd/Documents/Portas_Gabriel_Joao/Xor_Port_beh.prj" "work.Xor_Port" 

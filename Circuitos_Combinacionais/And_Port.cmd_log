@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "/home/sd/Documents/Circuitos_Combinacionais/And_Port.xst" -ofn "/home/sd/Documents/Circuitos_Combinacionais/And_Port.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-3 And_Port.ngc And_Port.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o And_Port_map.ncd And_Port.ngd And_Port.pcf 
+par -w -intstyle ise -ol high -mt off And_Port_map.ncd And_Port.ncd And_Port.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml And_Port.twx And_Port.ncd -o And_Port.twr And_Port.pcf 

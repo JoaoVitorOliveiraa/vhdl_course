@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/sd/raphael_beatriz/ULA_4_bits_isim_beh.exe" -prj "/home/sd/raphael_beatriz/ULA_4_bits_beh.prj" "work.ULA_4_bits" 

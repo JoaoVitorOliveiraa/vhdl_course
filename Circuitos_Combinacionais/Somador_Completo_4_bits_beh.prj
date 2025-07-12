@@ -1,0 +1,5 @@
+vhdl work "Xor_Port.vhd"
+vhdl work "Or_Port_3.vhd"
+vhdl work "And_Port.vhd"
+vhdl work "Somador_Completo_1_bit.vhd"
+vhdl work "Somador_Completo_4_bits.vhd"

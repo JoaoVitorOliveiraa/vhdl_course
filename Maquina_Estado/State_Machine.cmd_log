@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "/home/sd/Maquina_Estado/State_Machine.xst" -ofn "/home/sd/Maquina_Estado/State_Machine.syr" 
+xst -intstyle ise -ifn "/home/sd/Maquina_Estado/State_Machine.xst" -ofn "/home/sd/Maquina_Estado/State_Machine.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/sd/Debounce/State_Machine.ucf -p xc7a100t-csg324-3 State_Machine.ngc State_Machine.ngd  
+map -intstyle ise -p xc7a100t-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o State_Machine_map.ncd State_Machine.ngd State_Machine.pcf 

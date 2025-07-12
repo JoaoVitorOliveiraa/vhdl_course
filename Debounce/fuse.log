@@ -1,0 +1,42 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/sd/Debounce/State_Machine_isim_beh.exe -prj /home/sd/Debounce/State_Machine_beh.prj work.State_Machine 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/sd/Debounce/../raphael_beatriz/Xor_Port.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/../raphael_beatriz/Or_Port_3.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/../Portas_Gabriel_Joao/And_Port.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/../ULA_Gabriel_Joao/Somador_Completo_1_bit.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/../raphael_beatriz/Or_Port_4.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/../raphael_beatriz/Decodificador.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/../Portas_Gabriel_Joao/Or_Port.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/../Portas_Gabriel_Joao/Not_Port.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/../ULA_Gabriel_Joao/ULA_1_bit.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/../ULA_Gabriel_Joao/ULA_4_bits.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/Debounce.vhd" into library work
+Parsing VHDL file "/home/sd/Debounce/State_Machine.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94588 KB
+Fuse CPU Usage: 970 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavioral of entity Debounce [debounce_default]
+Compiling architecture behavioral of entity And_Port [and_port_default]
+Compiling architecture behavioral of entity Or_Port [or_port_default]
+Compiling architecture behavioral of entity Not_Port [not_port_default]
+Compiling architecture behavioral of entity Xor_Port [xor_port_default]
+Compiling architecture behavioral of entity Or_Port_3 [or_port_3_default]
+Compiling architecture structural of entity Somador_Completo_1_bit [somador_completo_1_bit_default]
+Compiling architecture behavioral of entity Decodificador [decodificador_default]
+Compiling architecture behavioral of entity Or_Port_4 [or_port_4_default]
+Compiling architecture structural of entity ULA_1_bit [ula_1_bit_default]
+Compiling architecture structural of entity ULA_4_bits [ula_4_bits_default]
+Compiling architecture behavioral of entity state_machine
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 25 VHDL Units
+Built simulation executable /home/sd/Debounce/State_Machine_isim_beh.exe
+Fuse Memory Usage: 658328 KB
+Fuse CPU Usage: 1030 ms
+GCC CPU Usage: 1010 ms

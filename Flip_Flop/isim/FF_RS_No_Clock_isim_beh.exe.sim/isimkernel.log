@@ -1,0 +1,29 @@
+Command line:
+   FF_RS_No_Clock_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  34626
+
+Fri May  9 15:31:02 2025
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 195.351 Meg
+
+ Total Signals          : 8
+ Total Nets             : 8
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 5
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 368
+Total Line Count : 6
+
+ Total Simulation Time: 0.12 sec
+
+ Current Memory Usage: 272.949 Meg
+
+Fri May  9 15:32:58 2025
+
